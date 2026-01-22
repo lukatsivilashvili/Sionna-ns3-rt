@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-12-13T13:09:54Z"/>
+
+  <node id="691513599" lat="48.8686507" lon="2.3548294"/>
+  <node id="691513797" lat="48.8671763" lon="2.3592585"/>
+  <node id="691513822" lat="48.8666333" lon="2.3593775"/>
+  <node id="691513978" lat="48.8672020" lon="2.3591834"/>
+  <node id="691514038" lat="48.8665861" lon="2.3591511"/>
+  <node id="691514342" lat="48.8664892" lon="2.3590546"/>
+  <node id="691515600" lat="48.8670617" lon="2.3591671"/>
+  <node id="691515840" lat="48.8665152" lon="2.3590688"/>
+  <node id="691516251" lat="48.8665456" lon="2.3593328"/>
+  <node id="691516347" lat="48.8686176" lon="2.3548978"/>
+  <node id="691516363" lat="48.8676175" lon="2.3590786"/>
+  <node id="691516411" lat="48.8664559" lon="2.3593401"/>
+  <node id="691516456" lat="48.8686499" lon="2.3549130"/>
+  <node id="691516498" lat="48.8663802" lon="2.3591113"/>
+  <node id="691516707" lat="48.8666707" lon="2.3591924"/>
+  <node id="691517323" lat="48.8674951" lon="2.3590691"/>
+  <node id="691517915" lat="48.8674997" lon="2.3590384"/>
+  <node id="691518220" lat="48.8676125" lon="2.3591092"/>
+  <node id="691518918" lat="48.8686500" lon="2.3548410"/>
+  <node id="691518962" lat="48.8670900" lon="2.3590900"/>
+  <node id="691519152" lat="48.8686334" lon="2.3548210"/>
+  <node id="691519290" lat="48.8664292" lon="2.3593272"/>
+  <node id="691519623" lat="48.8686609" lon="2.3548574"/>
+  <node id="691734286" lat="48.8641055" lon="2.3587636"/>
+  <node id="691735165" lat="48.8641135" lon="2.3541944"/>
+  <node id="691735361" lat="48.8641870" lon="2.3542625"/>
+  <node id="691735414" lat="48.8641594" lon="2.3585759"/>
+  <node id="691735613" lat="48.8641959" lon="2.3518108"/>
+  <node id="691736111" lat="48.8641954" lon="2.3517921"/>
+  <node id="691736115" lat="48.8641364" lon="2.3564551"/>
+  <node id="691736502" lat="48.8641751" lon="2.3542394"/>
+  <node id="691736626" lat="48.8642180" lon="2.3541551"/>
+  <node id="691736633" lat="48.8641081" lon="2.3587357"/>
+  <node id="691736634" lat="48.8642026" lon="2.3518147"/>
+  <node id="691736799" lat="48.8641283" lon="2.3564190"/>
+  <node id="691737084" lat="48.8640760" lon="2.3542132"/>
+  <node id="691737106" lat="48.8642036" lon="2.3564565"/>
+  <node id="691737299" lat="48.8641525" lon="2.3585976"/>
+  <node id="691737567" lat="48.8640853" lon="2.3587590"/>
+  <node id="691737752" lat="48.8641494" lon="2.3586259"/>
+  <node id="691737881" lat="48.8641263" lon="2.3563871"/>
+  <node id="691737989" lat="48.8641635" lon="2.3587362"/>
+  <node id="691738141" lat="48.8641111" lon="2.3587508"/>
+  <node id="691738214" lat="48.8641101" lon="2.3563706"/>
+  <node id="691738311" lat="48.8641255" lon="2.3564892"/>
+  <node id="691738722" lat="48.8641152" lon="2.3541323"/>
+  <node id="691739244" lat="48.8641859" lon="2.3518250"/>
+  <node id="691739355" lat="48.8641913" lon="2.3518279"/>
+  <node id="691739663" lat="48.8641996" lon="2.3564783"/>
+  <node id="691739876" lat="48.8641259" lon="2.3586841"/>
+  <node id="691739919" lat="48.8640975" lon="2.3587261"/>
+  <node id="691739934" lat="48.8641013" lon="2.3541248"/>
+  <node id="691740574" lat="48.8642069" lon="2.3517995"/>
+  <node id="691740702" lat="48.8641555" lon="2.3586008"/>
+  <node id="691740750" lat="48.8640955" lon="2.3587678"/>
+  <node id="691742270" lat="48.8641148" lon="2.3563733"/>
+  <node id="691742381" lat="48.8640856" lon="2.3564635"/>
+  <node id="691742507" lat="48.8641150" lon="2.3563799"/>
+  <node id="691742786" lat="48.8641296" lon="2.3587039"/>
+  <node id="691742845" lat="48.8641242" lon="2.3540974"/>
+  <node id="691743474" lat="48.8642101" lon="2.3586228"/>
+  <node id="691743489" lat="48.8641467" lon="2.3586236"/>
+  <node id="691743501" lat="48.8641355" lon="2.3563838"/>
+  <node id="691743522" lat="48.8641035" lon="2.3542305"/>
+  <node id="691774924" lat="48.8659506" lon="2.3513054"/>
+  <node id="691775164" lat="48.8661254" lon="2.3510772"/>
+  <node id="691775343" lat="48.8660921" lon="2.3510873"/>
+  <node id="691775391" lat="48.8659564" lon="2.3513633"/>
+  <node id="691775493" lat="48.8660991" lon="2.3510594"/>
+  <node id="691775697" lat="48.8659671" lon="2.3513163"/>
+  <node id="691775926" lat="48.8659402" lon="2.3513516"/>
+  <node id="691775965" lat="48.8661135" lon="2.3511004"/>
+  <node id="692826389" lat="48.8645037" lon="2.3590964"/>
+  <node id="692826456" lat="48.8645689" lon="2.3591649"/>
+  <node id="692826954" lat="48.8645290" lon="2.3590331"/>
+  <node id="692827611" lat="48.8645813" lon="2.3591346"/>
+  <node id="692827803" lat="48.8645910" lon="2.3591871"/>
+  <node id="692827861" lat="48.8644651" lon="2.3590939"/>
+  <node id="692829062" lat="48.8644747" lon="2.3590709"/>
+  <node id="692829063" lat="48.8645676" lon="2.3591201"/>
+  <node id="692829199" lat="48.8645816" lon="2.3592107"/>
+  <node id="692829370" lat="48.8645830" lon="2.3590845"/>
+  <node id="693002592" lat="48.8685133" lon="2.3511442"/>
+  <node id="693002635" lat="48.8685623" lon="2.3510597"/>
+  <node id="693002638" lat="48.8685378" lon="2.3510229"/>
+  <node id="693002687" lat="48.8685550" lon="2.3509730"/>
+  <node id="693002696" lat="48.8685501" lon="2.3509931"/>
+  <node id="693002768" lat="48.8685339" lon="2.3510237"/>
+  <node id="693002779" lat="48.8685786" lon="2.3509786"/>
+  <node id="693002782" lat="48.8684291" lon="2.3514513"/>
+  <node id="693002836" lat="48.8685755" lon="2.3510119"/>
+  <node id="693002869" lat="48.8685843" lon="2.3509722"/>
+  <node id="693002904" lat="48.8684577" lon="2.3513521"/>
+  <node id="693002961" lat="48.8684924" lon="2.3512256"/>
+  <node id="693002969" lat="48.8685122" lon="2.3512383"/>
+  <node id="693002993" lat="48.8684488" lon="2.3514627"/>
+  <node id="693003030" lat="48.8685297" lon="2.3510377"/>
+  <node id="693003106" lat="48.8685500" lon="2.3509867"/>
+  <node id="693003164" lat="48.8685917" lon="2.3509891"/>
+  <node id="693003172" lat="48.8685335" lon="2.3511581"/>
+  <node id="693003175" lat="48.8684764" lon="2.3513676"/>
+  <node id="693003222" lat="48.8685580" lon="2.3509773"/>
+  <node id="706645756" lat="48.8686541" lon="2.3548519"/>
+  <node id="708490549" lat="48.8642017" lon="2.3564671"/>
+  <node id="708490838" lat="48.8641337" lon="2.3563832"/>
+  <node id="708490852" lat="48.8640997" lon="2.3564112"/>
+  <node id="12944267839" lat="48.8684669" lon="2.3513597"/>
+  <node id="12944267840" lat="48.8684388" lon="2.3514569"/>
+  <node id="12944267842" lat="48.8685530" lon="2.3510535"/>
+  <node id="12944267843" lat="48.8685251" lon="2.3511523"/>
+  <node id="12944267844" lat="48.8685025" lon="2.3512321"/>
+  <node id="12944267845" lat="48.8685884" lon="2.3509815"/>
+  <way id="54964050">
+    <nd ref="691519290"/>
+    <nd ref="691516411"/>
+    <nd ref="691515840"/>
+    <nd ref="691514342"/>
+    <nd ref="691516498"/>
+    <nd ref="691519290"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54964097">
+    <nd ref="691516251"/>
+    <nd ref="691513822"/>
+    <nd ref="691516707"/>
+    <nd ref="691514038"/>
+    <nd ref="691516251"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54964206">
+    <nd ref="691516347"/>
+    <nd ref="691516456"/>
+    <nd ref="691519623"/>
+    <nd ref="706645756"/>
+    <nd ref="691518918"/>
+    <nd ref="691513599"/>
+    <nd ref="691519152"/>
+    <nd ref="691516347"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54964238">
+    <nd ref="691517323"/>
+    <nd ref="691518220"/>
+    <nd ref="691516363"/>
+    <nd ref="691517915"/>
+    <nd ref="691517323"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54964323">
+    <nd ref="691515600"/>
+    <nd ref="691513797"/>
+    <nd ref="691513978"/>
+    <nd ref="691518962"/>
+    <nd ref="691515600"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54982649">
+    <nd ref="691739244"/>
+    <nd ref="691739355"/>
+    <nd ref="691735613"/>
+    <nd ref="691736634"/>
+    <nd ref="691740574"/>
+    <nd ref="691736111"/>
+    <nd ref="691739244"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54982807">
+    <nd ref="691737567"/>
+    <nd ref="691740750"/>
+    <nd ref="691734286"/>
+    <nd ref="691738141"/>
+    <nd ref="691736633"/>
+    <nd ref="691739919"/>
+    <nd ref="691737567"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54983233">
+    <nd ref="691737084"/>
+    <nd ref="691743522"/>
+    <nd ref="691735165"/>
+    <nd ref="691736502"/>
+    <nd ref="691735361"/>
+    <nd ref="691736626"/>
+    <nd ref="691742845"/>
+    <nd ref="691738722"/>
+    <nd ref="691739934"/>
+    <nd ref="691737084"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54983798">
+    <nd ref="691742381"/>
+    <nd ref="691738311"/>
+    <nd ref="691736115"/>
+    <nd ref="691739663"/>
+    <nd ref="708490549"/>
+    <nd ref="691737106"/>
+    <nd ref="691736799"/>
+    <nd ref="691743501"/>
+    <nd ref="708490838"/>
+    <nd ref="691737881"/>
+    <nd ref="691742507"/>
+    <nd ref="691742270"/>
+    <nd ref="691738214"/>
+    <nd ref="708490852"/>
+    <nd ref="691742381"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54983983">
+    <nd ref="691742786"/>
+    <nd ref="691737989"/>
+    <nd ref="691743474"/>
+    <nd ref="691735414"/>
+    <nd ref="691737299"/>
+    <nd ref="691740702"/>
+    <nd ref="691743489"/>
+    <nd ref="691737752"/>
+    <nd ref="691739876"/>
+    <nd ref="691742786"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="54989432">
+    <nd ref="691775926"/>
+    <nd ref="691774924"/>
+    <nd ref="691775697"/>
+    <nd ref="691775391"/>
+    <nd ref="691775926"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </way>
+  <way id="54989438">
+    <nd ref="691775343"/>
+    <nd ref="691775493"/>
+    <nd ref="691775164"/>
+    <nd ref="691775965"/>
+    <nd ref="691775343"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </way>
+  <way id="55068477">
+    <nd ref="692829199"/>
+    <nd ref="692827803"/>
+    <nd ref="692826456"/>
+    <nd ref="692827611"/>
+    <nd ref="692829063"/>
+    <nd ref="692829370"/>
+    <nd ref="692826954"/>
+    <nd ref="692826389"/>
+    <nd ref="692829062"/>
+    <nd ref="692827861"/>
+    <nd ref="692829199"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"/>
+  </way>
+  <way id="55090637">
+    <nd ref="693003030"/>
+    <nd ref="12944267842"/>
+    <nd ref="693002635"/>
+    <nd ref="693002836"/>
+    <nd ref="693003164"/>
+    <nd ref="12944267845"/>
+    <nd ref="693002869"/>
+    <nd ref="693002779"/>
+    <nd ref="693003222"/>
+    <nd ref="693002687"/>
+    <nd ref="693003106"/>
+    <nd ref="693002696"/>
+    <nd ref="693002638"/>
+    <nd ref="693002768"/>
+    <nd ref="693003030"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </way>
+  <way id="55090641">
+    <nd ref="693002961"/>
+    <nd ref="12944267844"/>
+    <nd ref="693002969"/>
+    <nd ref="693003172"/>
+    <nd ref="12944267843"/>
+    <nd ref="693002592"/>
+    <nd ref="693002961"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </way>
+  <way id="55090682">
+    <nd ref="693002782"/>
+    <nd ref="12944267840"/>
+    <nd ref="693002993"/>
+    <nd ref="693003175"/>
+    <nd ref="12944267839"/>
+    <nd ref="693002904"/>
+    <nd ref="693002782"/>
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
+  </way>
+
+</osm>
