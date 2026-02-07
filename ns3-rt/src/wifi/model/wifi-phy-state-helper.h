@@ -32,6 +32,7 @@
 #include <list>
 #include <memory>
 #include <vector>
+#include <algorithm>
 
 namespace ns3
 {
