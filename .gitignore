@@ -3,3 +3,4 @@ build/
 dist/
 __pycache__/
 *.log
+ns3-rt/.python-version

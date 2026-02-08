@@ -1,2 +1,0 @@
-distance_m,model,simTime_s,offeredRate_mbps,packetSize_bytes,rx_packets
-300,sionna,5,5,1200,0

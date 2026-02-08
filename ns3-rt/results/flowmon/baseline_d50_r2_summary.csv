@@ -1,2 +1,0 @@
-distance_m,model,simTime_s,offeredRate_mbps,packetSize_bytes,rx_packets
-50,baseline,5,5,1200,8543

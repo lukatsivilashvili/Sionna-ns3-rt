@@ -469,9 +469,13 @@ def main():
     # Ray tracing
     parser.add_argument('--position-threshold', type=float, help='Position threshold for ray tracing', default=3)
     parser.add_argument('--angle-threshold', type=float, help='Angle threshold for ray tracing', default=90)
-    parser.add_argument('--max-depth', type=int, help='Maximum depth for ray tracing', default=5)
-    parser.add_argument('--max-num-paths-per-src', type=int, help='Maximum number of paths per source', default=1e4)
-    parser.add_argument('--samples-per-src', type=int, help='Number of samples per source', default=1e4)
+    parser.add_argument('--rt-profile',
+                        choices=["medium", "high", "ultra"],
+                        default="high",
+                        help="Ray tracing preset; overrides max-depth/paths/samples if not set")
+    parser.add_argument('--max-depth', type=int, help='Maximum depth for ray tracing', default=None)
+    parser.add_argument('--max-num-paths-per-src', type=int, help='Maximum number of paths per source', default=None)
+    parser.add_argument('--samples-per-src', type=int, help='Number of samples per source', default=None)
     parser.add_argument('--disable-los', action='store_false', help='Flag to exclude LoS paths')
     parser.add_argument('--disable-specular-reflection', action='store_false', help='Flag to exclude specular reflections')
     parser.add_argument('--disable-diffuse-reflection', action='store_false', help='Flag to exclude diffuse reflections')
@@ -495,9 +499,23 @@ def main():
     # Ray tracing
     position_threshold = args.position_threshold
     angle_threshold = args.angle_threshold
-    max_depth = args.max_depth
-    max_num_paths_per_src = args.max_num_paths_per_src
-    samples_per_src = args.samples_per_src
+    rt_profiles = {
+        "medium": {"max_depth": 5, "max_num_paths_per_src": 10000, "samples_per_src": 10000},
+        "high": {"max_depth": 8, "max_num_paths_per_src": 50000, "samples_per_src": 50000},
+        "ultra": {"max_depth": 10, "max_num_paths_per_src": 100000, "samples_per_src": 100000},
+    }
+    profile = rt_profiles.get(args.rt_profile, rt_profiles["medium"])
+    max_depth = args.max_depth if args.max_depth is not None else profile["max_depth"]
+    max_num_paths_per_src = (
+        args.max_num_paths_per_src
+        if args.max_num_paths_per_src is not None
+        else profile["max_num_paths_per_src"]
+    )
+    samples_per_src = (
+        args.samples_per_src
+        if args.samples_per_src is not None
+        else profile["samples_per_src"]
+    )
     los = args.disable_los
     specular_reflection = args.disable_specular_reflection
     diffuse_reflection = args.disable_diffuse_reflection
@@ -566,7 +584,11 @@ def main():
     sionna_structure["rays_cache"] = {}  # Cache for ray information
     sionna_structure["path_loss_cache"] = {}  # Cache for path loss values
 
-    print(f"Setup complete. Working at {frequency / 1e9} GHz, bandwidth {bandwidth / 1e6} MHz.")
+    print(
+        f"Setup complete. Working at {frequency / 1e9} GHz, bandwidth {bandwidth / 1e6} MHz."
+        f" Ray tracing profile={args.rt_profile}, depth={max_depth},"
+        f" max_paths={max_num_paths_per_src}, samples={samples_per_src}."
+    )
 
     while True:
         # Receive data from the socket

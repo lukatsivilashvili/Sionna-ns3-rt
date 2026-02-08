@@ -10,4 +10,5 @@ build_lib_example(
     ${libmobility}
     ${libapplications}
     ${libflow-monitor}
+    ${libtap-bridge}
 )
